@@ -7,9 +7,9 @@ import PaymentSuccessful from './Components/PaymentSuccessful'
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Home/> */}
+      <Home/>
       {/* <AddToCart/> */}
-      <PaymentSuccessful/>
+      {/* <PaymentSuccessful/> */}
     </View>
   );
 }
