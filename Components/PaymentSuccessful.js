@@ -19,7 +19,7 @@ export default class PaymentSuccessful extends Component {
                 </View>
                 <View>
                     <TouchableOpacity style={styles.button}>
-                        <Text style={styles.buttonText}>Next</Text>
+                        <Text style={styles.buttonText}>Get Started</Text>
                     </TouchableOpacity>
                 </View>
                 <View style={styles.swiperContainer}>
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     },
     buttonText:{
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 15,
         color: '#fff'
     },
     swiperContainer:{
