@@ -15,7 +15,7 @@ export default class AddToCart extends Component {
                     </Text>
                 </View>
                 <View>
-                    <Image source={require('./../assets/images/add_to_cart.png')} style={styles.image}/>
+                    <Image source={require('../../assets/images/add_to_cart.png')} style={styles.image}/>
                 </View>
                 <View>
                     <TouchableOpacity style={styles.button}>
